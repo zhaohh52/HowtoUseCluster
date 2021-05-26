@@ -72,7 +72,8 @@ pbs文件实例，cat MyPBS.pbs
 samtools index pb.map.bam
 …..
 
-```
+```   
+注意：申请cpu大小修改ppn参数的值，可以用nodes=cu01指定计算节点。   
 ### 5.2 提交任务
 ```
 qsub MyPBS.pbs
