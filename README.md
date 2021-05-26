@@ -48,7 +48,7 @@ queue目前有两个：batch和fat，fat的内存较大。
 ```
 ## 5. 任务操作
 ### 5.1 新建任务
-pbs文件实例，cat MyPBS.pbs
+pbs任务实例，cat MyPBS.pbs
 ```
 
 #!/bin/bash
